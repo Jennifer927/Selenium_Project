@@ -1,4 +1,4 @@
-package Selenium_package;
+package Selenium_package_jay;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -17,9 +17,9 @@ public class Fill_Form {
 		// 3. Open the http://www.google.com/ link using get method.
 	        browserObject.get("http://training.qaonlinetraining.com/testPage.php");
 	        
-	        browserObject.findElement(By.name("name")).sendKeys("Jennifer");
+	        browserObject.findElement(By.name("name")).sendKeys("Jennifer Joseph");
 	        
-	        browserObject.findElement(By.id("eml")).sendKeys("jennifer@gmail.com"); 
+	        browserObject.findElement(By.id("email")).sendKeys("jennifer@gmail.com"); 
 	        
 	        browserObject.findElement(By.name("website")).sendKeys("www.itlearn360.com");
 	        
